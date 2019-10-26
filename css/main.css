@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+
+}
+
+header {
+  background-color: ##dcd4cd;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  color: #512200;
+}
+
+p {
+  font-family: 'Georgia', sans-serif;
+  font-size: 1rem;
+  color: #785439;
+}
+
+nav ul li {
+  font-family: 'Georgia', sans-serif;
+  font-size: .875rem;
+  color: #785439;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.125rem;
+  color: #f0eee8;
+}
