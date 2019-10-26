@@ -7,11 +7,18 @@ html {
 }
 
 body {
-
+  margin: 1rem;
 }
 
 header {
-  background-color: ##dcd4cd;
+  display: inline-block;
+  padding: 1rem, .4em, .75em, .5em;
+  background-color: #dcd4cd;
+  border-radius: 3px;
+  border: 0;
+  color: #f0eee8;
+  text-decoration: none;
+  line-height: 1.5;
 }
 
 h1 {
@@ -30,10 +37,18 @@ nav ul li {
   font-family: 'Georgia', sans-serif;
   font-size: .875rem;
   color: #785439;
+  text-decoration: none;
 }
 
 h2 {
   font-family: 'Dosis', sans-serif;
   font-size: 1.125rem;
   color: #f0eee8;
+
+  display: inline-block;
+  padding: 1rem, .4em .75em .5em;
+  background-color: #512200;
+  border-radius: 8px;
+  border: 0;
+  text-decoration: none;
 }
