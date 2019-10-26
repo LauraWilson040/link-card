@@ -13,7 +13,7 @@ body {
 
 header {
   display: inline-block;
-  padding: 1rem, .4em, .75em, .5em;
+  padding: 1rem;
   background-color: #dcd4cd;
   border-radius: 3px;
   border-color: #9a816d;
