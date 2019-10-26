@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 1rem;
+  line-height: 1.5;
 }
 
 header {
@@ -15,10 +16,10 @@ header {
   padding: 1rem, .4em, .75em, .5em;
   background-color: #dcd4cd;
   border-radius: 3px;
-  border: 0;
+  border-color: #9a816d;
+  border: 5px;
   color: #f0eee8;
   text-decoration: none;
-  line-height: 1.5;
 }
 
 h1 {
@@ -33,11 +34,11 @@ p {
   color: #785439;
 }
 
-nav ul li {
+nav ul {
   font-family: 'Georgia', sans-serif;
   font-size: .875rem;
   color: #785439;
-  text-decoration: none;
+  list-style-type: none;
 }
 
 h2 {
@@ -45,10 +46,11 @@ h2 {
   font-size: 1.125rem;
   color: #f0eee8;
 
-  display: inline-block;
-  padding: 1rem, .4em .75em .5em;
+  display: inline;
+  padding: .4rem;
   background-color: #512200;
   border-radius: 8px;
   border: 0;
   text-decoration: none;
+  text-align: center;
 }
