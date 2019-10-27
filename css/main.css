@@ -7,17 +7,17 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: .5rem;
   line-height: 1.5;
+  background-color: #dcd4cd;
 }
 
 header {
   display: inline-block;
   padding: 1rem;
-  background-color: #dcd4cd;
+  background-color: #cabdb2;
   border-radius: 3px;
-  border-color: #9a816d;
-  border: 5px;
+  border: 5px, solid #9a816d;
   color: #f0eee8;
   text-decoration: none;
 }
@@ -53,4 +53,9 @@ h2 {
   border: 0;
   text-decoration: none;
   text-align: center;
+}
+
+hr {
+  background-color: #9a816d;
+  display: block;
 }
