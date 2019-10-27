@@ -7,15 +7,15 @@ html {
 }
 
 body {
-  background-color: #dcd4cd;
+  background-color: #f0eee8;
   line-height: 1.5;
-  margin: 1rem;
+  margin: 0 0 1rem;
 }
 
 header {
   display: inline-block;
   padding: .75em .4em;
-  background-color: #cabdb2;
+  background-color: #dcd4cd;
   border-radius: 3px;
   border: 3px solid #9a816d;
   color: #f0eee8;
