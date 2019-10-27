@@ -7,42 +7,58 @@ html {
 }
 
 body {
-  margin: .5rem;
-  line-height: 1.5;
   background-color: #dcd4cd;
+  line-height: 1.5;
+  margin: 1rem;
 }
 
 header {
   display: inline-block;
-  padding: 1rem;
+  padding: .75em .4em;
   background-color: #cabdb2;
   border-radius: 3px;
-  border: 5px solid #9a816d;
+  border: 3px solid #9a816d;
   color: #f0eee8;
-  text-decoration: none;
+}
+
+.link-card {
+
+}
+
+.link-card:hover {
+
 }
 
 h1 {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.5rem;
   color: #512200;
 }
 
 p {
-  font-family: "Georgia", sans-serif;
+  font-family: Georgia, sans-serif;
   font-size: 1rem;
   color: #785439;
 }
 
-nav ul {
-  font-family: "Georgia", sans-serif;
+dd {
+  font-family: Georgia, sans-serif;
   font-size: .875rem;
   color: #785439;
   list-style-type: none;
+  display: inline;
+}
+
+dt {
+  font-family: Georgia, sans-serif;
+  font-size: .875rem;
+  color: #785439;
+  list-style-type: none;
+  display: inline;
 }
 
 h2 {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.125rem;
   color: #f0eee8;
 
@@ -50,11 +66,7 @@ h2 {
   padding: .4rem;
   background-color: #512200;
   border-radius: 8px;
-  border: 0;
+  border: 2px solid #512200;
   text-decoration: none;
   text-align: center;
-}
-
-hr {
-  background-color: #9a816d;
 }
