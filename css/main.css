@@ -22,15 +22,15 @@ header {
 }
 
 .link-card {
-  background-color: #f0eee8;
+  background-color: #cabdb2;
 }
 
 .link-card:hover {
-  background-color: #f0eee8;
+  background-color: #cabdb2;
 }
 
 h1 {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.5rem;
   color: #512200;
 }
@@ -58,12 +58,12 @@ dt {
 }
 
 h3 {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.125rem;
   color: #f0eee8;
 
-  display: inline;
-  padding: .4rem;
+  display: inline-block;
+  padding: .4rem .5em;
   background-color: #512200;
   border-radius: 8px;
   border: 2px solid #512200;
